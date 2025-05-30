@@ -1,4 +1,4 @@
-package main.java.com.rodrigo.pedro.models;
+package com.rodrigo.pedro.models;
 
 public class Veiculo {
     protected String marca;

@@ -1,5 +1,5 @@
 package com.rodrigo.pedro;
-import main.java.com.rodrigo.pedro.models.*;
+import com.rodrigo.pedro.models.*;
 
 public class Main {
   public static void main(String[] args) {
