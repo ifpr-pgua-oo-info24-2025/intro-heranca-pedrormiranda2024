@@ -1,9 +1,9 @@
 package main.java.com.rodrigo.pedro.models;
 
-public class Carro extends Veiculo{
+public class Carro extends Veiculo {
     private int numPortas;
 
-    public Carro (String marca, String modelo, int ano, int numPortas) {
+    public Carro(String marca, String modelo, int ano, int numPortas) {
         super(marca, modelo, ano);
         this.numPortas = numPortas;
     }
@@ -15,9 +15,9 @@ public class Carro extends Veiculo{
     public void setNumPortas(int numPortas) {
         this.numPortas = numPortas;
     }
+
     public String exibirDetalhes() {
-        return "Carro [numPortas=" + numPortas + "]";
+        return super.exibirDetalhes() + " [numPortas=" + numPortas + "]";
     }
 
-    
 }

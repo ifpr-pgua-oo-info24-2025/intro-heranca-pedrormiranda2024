@@ -5,7 +5,6 @@ public class Veiculo {
     protected String modelo;
     protected int ano;
 
-    
     public Veiculo(String marca, String modelo, int ano) {
         this.marca = marca;
         this.modelo = modelo;
@@ -37,8 +36,7 @@ public class Veiculo {
     }
 
     public String exibirDetalhes() {
-        return "Veiculo [marca=" + marca + ", modelo=" + modelo + ", ano=" + ano + "]";
+        return "[marca=" + marca + ", modelo=" + modelo + ", ano=" + ano + "]";
     }
-    
-    
+
 }
